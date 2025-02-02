@@ -1,0 +1,9 @@
+LPARAMETERS  tcEntry
+LOCAL     lcBuffer,   ; lcOldError,   ; lnTop,   ; lnLeft,   ; llError,   ; lnCommaPos,   ; lcEntry,   lnColor,   lPath
+lPath  =  ALLTRIM(oApp.LocalPath)
+IF  PCOUNT()   =  0
+lcEntry  =  THISFORM.Caption ELSE
+lcEntry  =  tcEntry END IF
+lcBuffer  =  SPACE(10)   +  CHR(0) lcOldError  =  ON('ERROR') llError  =   .F.
+*—  Читаем  позицию  окна  из  INI  файла IF  GetPrivStr("WindowPositions",   lcEntry,   "",   ; @lcBuffer,   LEN(lcBuffer),   ; lPath  +  INIFILE)   >  0 *—  Если  возникла  ошибка  при  чтении  string, *—  Координаты  формы  берем  по  умолчанию ON  ERROR  llError  =   .Т. lnCommaPos  =  AT(","',   lcBuffer) lnTop     =  VAL(LEFT(lcBuffer,   lnCoramaPos  -   1)) lnLeft  =  VAL(SUBSTR(lcBuffer,   lnCoramaPos  +  1)) ON  ERROR  &lcOldError IF   !llError
+THISFORM.Top  =   lnTop THISFORM.Left  =  lnLeft END IF END IF

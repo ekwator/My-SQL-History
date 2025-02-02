@@ -1,0 +1,6 @@
+#INCLUDE	INCLUDE\MAIN.H
+Error in line 2: File does not exist.
+#IF DEBUGMODE
+Error in line 10: Preprocessor expression is invalid.
+#IF !DEBUGMODE
+Error in line 139: Preprocessor expression is invalid.

@@ -1,0 +1,244 @@
+В программе S_PACIENTADRES._LOADDATA произошла ошибка (строка 23)
+Ошибка N:12 Variable 'NAME' is not found.
+Исходный код: SET ORDER TO Name
+
+В программе S_PACIENTADRESEDIT.CNTSPRCOUNTRY._ID_ELEMENT_ASSIGN произошла ошибка (строка 16)
+Ошибка N:1734 Property ID_ADRESCOUTRY is not found.
+Исходный код: THISFORM.id_AdresCoutry=This._id_Element
+
+В программе FORM1.CNTSPRINFORM2._ID_ELEMENT_ASSIGN произошла ошибка (строка 16)
+Ошибка N:1734 Property ID_ADRESSTREET is not found.
+Исходный код: THISFORM.id_AdresStreet=This._id_Element
+
+В программе U_SOC_ANAMNEZ.PAGEFRAME1.PAGE1.CMDADD1.CLICK произошла ошибка (строка 1)
+Ошибка N:17 Table number is invalid.
+Исходный код: SELECT (THISFORM._cNameCursorMotherVredPriv)
+
+В программе _SYSMIAS._DOFORM произошла ошибка (строка 3)
+Ошибка N:1 File 'd:\main\vvk_mias\s_pacientpolisedit.scx' does not exist.
+Исходный код: DO FORM (m.cNameForm)
+
+В программе FORM1.CNTSPRSTATUS._ID_ELEMENT_ASSIGN произошла ошибка (строка 19)
+Ошибка N:107 Operator/operand type mismatch.
+Исходный код: IF m.Vis_Dol=1
+
+В программе U_SOC_ANAMNEZ._DOCNEW произошла ошибка (строка 6)
+Ошибка N:1734 Property _DATEDOC is not found.
+Исходный код: THISFORM._DateDoc=DATETime()
+
+В программе U_SOC_ANAMNEZ._DOCNEW произошла ошибка (строка 6)
+Ошибка N:1734 Property _DATEDOC is not found.
+Исходный код: THISFORM._DateDoc=DATETime()
+
+В программе U_SOC_ANAMNEZ.CNTSPRINFORM1._ID_ELEMENT_ASSIGN произошла ошибка (строка 8)
+Ошибка N:1925 Unknown member CNTVOZRAST1.
+Исходный код: THISFORM.cntVozrast1.DateR={}
+
+В программе U_SOC_ANAMNEZ._CREATECURSOR произошла ошибка (строка 23)
+Ошибка N:1925 Unknown member CNTSPRINGRID1.
+Исходный код: .Column2.cntspringrid1.Text1.ControlSource =	.Column2.ControlSource
+
+В программе U_SOC_ANAMNEZ._CREATECURSOR произошла ошибка (строка 23)
+Ошибка N:1925 Unknown member CNTSPRINGRID1.
+Исходный код: .Column2.cntspringrid1.Text1.ControlSource =	.Column2.ControlSource
+
+В программе U_LABNAZN.DESTROY произошла ошибка (строка 1)
+Ошибка N:1734 Property _CNAMECURSOR is not found.
+Исходный код: IF USED(THISFORM._cNameCursor)
+
+В программе U_LABNAZN.GRID1.AFTERROWCOLCHANGE произошла ошибка (строка 3)
+Ошибка N:12 Variable 'ID' is not found.
+Исходный код: THISFORM._Loaddata_T(m.id)
+
+В программе U_LABNAZN._LOADDATA_T произошла ошибка (строка 54)
+Ошибка N:1581 Field ZAKONCHEN does not accept null values.
+Исходный код: INSERT INTO (THISFORM._cNameCursor_T) FROM MEMVAR
+
+В программе U_LABNAZN.COMMAND1.CLICK произошла ошибка (строка 6)
+Ошибка N:12 Variable 'ID_NAZN' is not found.
+Исходный код: m.id_LabNazn=Id_Nazn
+
+В программе FRM_D_LAB1._CREATECURSOR произошла ошибка (строка 3)
+Ошибка N:1734 Property _CNAMECURSORTABLE is not found.
+Исходный код: THISFORM._cNameCursorTable=oSysMias.NewUnicCursorName()
+
+В программе FRM_D_LAB1.DESTROY произошла ошибка (строка 1)
+Ошибка N:1734 Property _CNAMECURSORTABLE is not found.
+Исходный код: IF USED(THISFORM._cNameCursorTable)=.t.
+
+В программе U_LABNAZN._LOADDATA_T произошла ошибка (строка 61)
+Ошибка N:1581 Field ID does not accept null values.
+Исходный код: INSERT INTO (THISFORM._cNameCursor_T) FROM MEMVAR
+
+В программе FORM1.CMDSAVE1.CLICK произошла ошибка (строка 115)
+Ошибка N:1734 Property _LOADDATE is not found.
+Исходный код: THISFORM._oForm._LoadDate()
+
+В программе FRM_D_LAB1._ZAKONCHIT произошла ошибка (строка 35)
+Ошибка N:1734 Property _CNAMECURSORTABLE is not found.
+Исходный код: SELECT (THISFORM._cNameCursorTable)
+
+В программе FRM_D_LAB1.INIT произошла ошибка (строка 7)
+Ошибка N:1925 Unknown member THISFORM.
+Исходный код: &cRun
+
+В программе FRM_D_LAB1._DOCHTMLBODY произошла ошибка (строка 5)
+Ошибка N:1734 Property _RECALCIF is not found.
+Исходный код: m.cHTML=m.cHTML+"Активированное время рекальцификации плазмы-" +ALLTRIM(STR(THISFORM._Recalcif,6,2)) +' сек.'+"<BR>"
+
+В программе  произошла ошибка (строка 0)
+Ошибка N:107 Operator/operand type mismatch.
+Исходный код: 
+
+В программе 000041ZD027Z произошла ошибка (строка 1)
+Ошибка N:16 Unrecognized command verb.
+Исходный код: A
+
+В программе _SYSMIAS._DOFORM произошла ошибка (строка 3)
+Ошибка N:1 File 'd:\main\vvk_mias\d_lab_diastaz.scx' does not exist.
+Исходный код: DO FORM (m.cNameForm)
+
+В программе _SYSMIAS._DOFORM произошла ошибка (строка 3)
+Ошибка N:1 File 'd:\main\vvk_mias\d_lab_diastaz.scx' does not exist.
+Исходный код: DO FORM (m.cNameForm)
+
+В программе _CNTMIAS.RETURNREZ произошла ошибка (строка 24)
+Ошибка N:107 Operator/operand type mismatch.
+Исходный код: m.cStringSQL='Select * from '+m.cNameTable +' where '+m.cNameField+'=?m.cExprSeek'
+
+В программе _CNTMIAS.RETURNREZ произошла ошибка (строка 24)
+Ошибка N:107 Operator/operand type mismatch.
+Исходный код: m.cStringSQL='Select * from '+m.cNameTable +' where '+m.cNameField+'=?m.cExprSeek'
+
+В программе D_LAB_SUTBELOK.CNTSPREZULTAT1._ID_ELEMENT_ASSIGN произошла ошибка (строка 19)
+Ошибка N:11 Function argument value, type, or count is invalid.
+Исходный код: m.KodRezultat=ALLTRIM(m.KodRezultat)
+
+В программе _SYSMIAS.INIT произошла ошибка (строка 13)
+Ошибка N:1466 Connection handle is invalid.
+Исходный код: =SQLSetProp(This.nConnectSQLReal,"Asynchronous",.f.)	&&Синхронное получение результатов
+
+В программе CREATETABLE.COMMAND4.CLICK произошла ошибка (строка 6)
+Ошибка N:13 Alias 'C68177239' is not found.
+Исходный код: SELECT (THISFORM.cNamecursorcopy)
+
+В программе D_VACCINEPROVEDENIE.CHECK2.INTERACTIVECHANGE произошла ошибка (строка 1)
+Ошибка N:107 Operator/operand type mismatch.
+Исходный код: IF THIS.Value=.t.	&&Ревакцинация
+
+В программе _CNTMIAS._CREATEHTMLTITLE произошла ошибка (строка 20)
+Ошибка N:11 Function argument value, type, or count is invalid.
+Исходный код: m.cHTML=m.cHTML+"Д.р.-"+DTOC(oMias.ReturnRez(m.id_Pacient,"_s_Pacient",'DateR'))
+
+В программе _CNTMIAS._CREATEHTMLTITLE произошла ошибка (строка 20)
+Ошибка N:11 Function argument value, type, or count is invalid.
+Исходный код: m.cHTML=m.cHTML+"Д.р.-"+TTOC(oMias.ReturnRez(m.id_Pacient,"_s_Pacient",'DateR'))
+
+В программе _CNTMIAS._CREATEHTMLTITLE произошла ошибка (строка 25)
+Ошибка N:11 Function argument value, type, or count is invalid.
+Исходный код: m.cHTML=m.cHTML+', Участок- '+Alltrim(str(oMias.ReturnRez(m.id_Pacient ,"_s_Pacient",'Uch')))
+
+В программе D_VACCINEPROVEDENIE._DOCNEW произошла ошибка (строка 17)
+Ошибка N:1924 OMIAS is not an object.
+Исходный код: THISFORM._id_sotrudnik 	= IIF(EMPTY(THISFORM._id_sotrudnik)=.t. ,oMias.User._id_sotrudnik ,THISFORM._id_sotrudnik)
+
+В программе D_VACCINEPROVEDENIE.CMDPRINT1.CLICK произошла ошибка (строка 4)
+Ошибка N:1924 OMIAS is not an object.
+Исходный код: =FWRITE(m.nHeaderFiles,m.omias._CreateHTMLTitle(THISFORM._id_Org,THISFORM._id_pacient))
+
+В программе J_DOC.CMDPRINT1.CLICK произошла ошибка (строка 8)
+Ошибка N:1734 Property _ID_ORG is not found.
+Исходный код: =FWRITE(m.nHeaderFiles,m.omias._CreateHTMLTitle(THISFORM._id_Org,THISFORM._id_pacient))
+
+В программе FORM1.INIT произошла ошибка (строка 52)
+Ошибка N:1737 CNTSPRPACIENTNAME is a method, event, or object.
+Исходный код: THISFORM.cntSprPacientName					=id_PacientName
+
+В программе S_VACCINEPLAN._NEWDATE произошла ошибка (строка 4)
+Ошибка N:11 Function argument value, type, or count is invalid.
+Исходный код: m.ndYear	=YEAR(m.DateR)
+
+В программе CREATETABLE.COMMAND4.CLICK произошла ошибка (строка 6)
+Ошибка N:13 Alias 'C16471765' is not found.
+Исходный код: SELECT (THISFORM.cNamecursorcopy)
+
+В программе _SYSMIAS.INIT произошла ошибка (строка 10)
+Ошибка N:1752 Class _cntmias is in use by MODIFY CLASS.
+Исходный код: oMias=CREATEOBJECT('_cntMias')
+
+В программе D_LAB_KROVALL._MYREFRESH произошла ошибка (строка 42)
+Ошибка N:1734 Property _V_TEL_ID is not found.
+Исходный код: .CntsprTel.enabled=IIF(THISFORM._v_Tel_id=1,.t.,.f.)
+
+В программе D_LAB_KROVALL._DOCLOAD произошла ошибка (строка 62)
+Ошибка N:12 Variable 'V_ANIZ' is not found.
+Исходный код: THISFORM._v_Aniz		=v_Aniz
+
+В программе D_LAB_IMMUNOGEN._DOCHTMLBODY произошла ошибка (строка 46)
+Ошибка N:107 Operator/operand type mismatch.
+Исходный код: +IIF(THISFORM._V_LokusB=1 ,THISFORM._V_LokusB ,'--')+'</TD>'
+
+В программе S_VACCINEPLAN.GRID1.COLUMN8.RESIZE произошла ошибка (строка 3)
+Ошибка N:1881 Error with TEXT1 - Width : Expression evaluated to an illegal value.
+Исходный код: This.cntSprInGrid1.Text1.Width=This.Width-20
+
+В программе _CNTMIAS._CREATEHTMLTITLE произошла ошибка (строка 24)
+Ошибка N:11 Function argument value, type, or count is invalid.
+Исходный код: m.cHTML=m.cHTML+', Участок- '+Alltrim(str(m.Rez))
+
+В программе CREATETABLE.COMMAND4.CLICK произошла ошибка (строка 6)
+Ошибка N:13 Alias 'C59369083' is not found.
+Исходный код: SELECT (THISFORM.cNamecursorcopy)
+
+В программе _D_LAB_ANTITELLAMBLII.CNTSPLABREZULTAT1._ID_ELEMENT_ASSIGN произошла ошибка (строка 23)
+Ошибка N:1734 Property _ID_LABREZULTAT is not found.
+Исходный код: THISFORM._id_LabRezultat=This._id_Element
+
+В программе _SYSMIAS.INIT произошла ошибка (строка 13)
+Ошибка N:1466 Connection handle is invalid.
+Исходный код: =SQLSetProp(This.nConnectSQLReal,"Asynchronous",.f.)	&&Синхронное получение результатов
+
+В программе D_LAB_MIKROPREC._DOCHTMLBODY произошла ошибка (строка 31)
+Ошибка N:1734 Property _KODLABREZULTAT1 is not found.
+Исходный код: m.cHTML=m.cHTML+'<TR' +IIF(THISFORM._KodLabRezultat1#'1' ,' bgcolor'+m.cColorPatol,'') +'>'
+
+В программе D_LAB_SKRINING._DOCHTMLBODY произошла ошибка (строка 44)
+Ошибка N:1925 Unknown member CNTSPLABREZULTATFOSFAT.
+Исходный код: +ALLTRIM(THISFORM.CntspLabRezultatFosfat._Name_element) +'</TD>'
+
+В программе D_LAB_TORM._DOCLOAD произошла ошибка (строка 38)
+Ошибка N:1 File '(thisform.._cnamecursor_t)' does not exist.
+Исходный код: INSERT INTO (THISFORM.._cNameCursor_T) FROM MEMVAR
+
+В программе FRMADMINMAIN.LOAD произошла ошибка (строка 1)
+Ошибка N:1 File 'setdsession.prg' does not exist.
+Исходный код: =SetDSession()
+
+В программе _SYSMIAS.INIT произошла ошибка (строка 10)
+Ошибка N:1752 Class _cntmias is in use by MODIFY CLASS.
+Исходный код: oMias=CREATEOBJECT('_cntMias')
+
+В программе _SYSMIAS._DOFORM произошла ошибка (строка 3)
+Ошибка N:1 File 'd:\мои документы\visual foxpro projects\vvk_mias\d_osmotr1mes_1.scx' does not exist.
+Исходный код: DO FORM (m.cNameForm)
+
+В программе _SYSMIAS._DOFORM произошла ошибка (строка 3)
+Ошибка N:1 File 'd:\мои документы\visual foxpro projects\vvk_mias\s_org.scx' does not exist.
+Исходный код: DO FORM (m.cNameForm)
+
+В программе _SYSMIAS._DOFORM произошла ошибка (строка 3)
+Ошибка N:1 File 'd:\мои документы\visual foxpro projects\vvk_mias\s_centil.scx' does not exist.
+Исходный код: DO FORM (m.cNameForm)
+
+В программе _SYSMIAS._DOFORM произошла ошибка (строка 3)
+Ошибка N:1 File 'd:\мои документы\visual foxpro projects\vvk_mias\s_pacient.scx' does not exist.
+Исходный код: DO FORM (m.cNameForm)
+
+В программе FORM1.INIT произошла ошибка (строка 43)
+Ошибка N:1925 Unknown member CNTSPRINFORMDOL.
+Исходный код: THISFORM.cntsprinformDol._id_element 	=THISFORM._id_StatusDol
+
+В программе FORM1.TEXT1.INTERACTIVECHANGE произошла ошибка (строка 6)
+Ошибка N:26 Table has no index order set.
+Исходный код: seek UPPER(ThisForm.strSeek)
+

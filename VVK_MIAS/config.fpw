@@ -1,0 +1,1 @@
+*Ётот файл создан автоматически программой "”правление проектами"*(C) Nikolai Kremko 2003*TITLE = VVK_MIAS                            COLLATE =  RUSSIANCODEPAGE = 1251RESOURCE = Foxuser.dbfPATH = "\Data\";"\libs\";"\Progs\";"\Forms\";"\menus\";"\reports\"COMMAND = MODIFY PROJECT "VVK_MIAS"

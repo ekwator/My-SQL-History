@@ -1,0 +1,24 @@
+********** 20.01.2007 15:13:56 **********
+ODBC драйвер вернул ошибку № 208
+Сервер: (local)
+SQL-Login: ADMIN
+[Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'User_Reports'.
+Пользователь - KOMPIK # Администратор
+Команда SELECT U.UserReport_ID, U.Report_Name, U.Report_FRX, U.Report_FRT, U.Note, U.User_ID, Users.UserName AS User_Name, U.VOC, U.VOP, U.Report_Init, U.Report_Destroy, U.Title FROM User_Reports U INNER JOIN Users ON U.User_ID = Users.User_ID  WHERE Report_Grid = 'FRMTEST2_GRDLISTDOCUM' ORDER BY U.Report_Name
+
+********** 20.01.2007 15:14:32 **********
+ODBC драйвер вернул ошибку № 208
+Сервер: (local)
+SQL-Login: ADMIN
+[Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'User_Reports'.
+Пользователь - KOMPIK # Администратор
+Команда INSERT INTO User_Reports (Report_Name, Note, User_ID, VOC, VOP, Report_Init, Report_Destroy, Report_Grid, Title) VALUES (?prName, ?prNote, ?oApp.User_ID, GetDate(), GetDate(), ?cReport_Init, ?cReport_Destroy, ?cKeyGrid, ?prTitle) SELECT U.UserReport_ID, U.Report_Name, U.Report_FRX, U.Report_FRT, U.Note, U.User_ID, Users.UserName AS User_Name, U.VOC, U.VOP, U.Report_Init, U.Report_Destroy, U.Title FROM User_Reports U INNER JOIN Users ON U.User_ID = Users.User_ID WHERE U.UserReport_ID = SCOPE_IDENTITY()
+
+********** 27.01.2007 17:05:44 **********
+ODBC драйвер вернул ошибку № 50000
+Сервер: (local)
+SQL-Login: ADMIN
+[Microsoft][ODBC SQL Server Driver][SQL Server]Не найден пользователь USER_ID=0!
+Пользователь - KOMPIK # Администратор
+Команда Admin_GetUserMenu 0
+

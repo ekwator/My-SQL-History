@@ -1,0 +1,13 @@
+LPARAMETERS loForm
+WITH THISFORM DODEFAULT()
+IF PCOUNT()=1 AND UPPER(VARTYPE(loForm)) == "0" ; AND UPPER(loForm.BaseClass) = "FORM" .P_Form = loForm ELSE
+IF TYPE("_SCREEN.ActiveForm") == "0" AND ;
+UPPER(_SCREEN.ACTIVEFORM.BaseClass) = "FORM" .P_Form = _Screen.ActiveForm END IF END IF IF TYPE("THISFORH.P_FORM") == "O" AND ;
+|uPPER(.P_FORM.BaseClass) = "FORM" SET DATASESSION TO (.P_FORM.DataSessionID) END IF
+IF .ToCentr AND UPPER(VARTYPE(.P_Form)) == "O" ; AND UPPER(.P_Form.BaseClass) = "FORM"
+*	Top формы = Top родителя + половина высоты
+*	родителя - половина высоты этой формы
+.TOP = MAX( 10, MIN( _SCREEN.Height - .Height - 30, ; .P_form.Top + .P_form.Height / 2 - .Height / 2 ))
+*	Left формы = Left родителя + половина ширины родителя
+*	- половина ширины этой формы
+.LEFT = MAX( 5, MIN( _SCREEN.Width - .Width - 10, ; .P_form.Left + .P_form.Width / 2 - .Width / 2 )) END IF ENDWITH
